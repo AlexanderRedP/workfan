@@ -1,0 +1,490 @@
+body{
+    width: 90%;
+    padding-left: 5%;
+}
+.footer{
+    background-color:rgb(80, 88, 102);
+    width: 100%;
+    height: 50px;
+    margin: 0;
+   
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 60px;
+    font-family: Monotype Corsiva, cursive;
+}
+
+.menu{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 10px;
+    float: right;
+    width: 40%;
+    padding-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color:white;
+    padding-left: 5%;
+}
+
+.dfooter{
+    background-color:rgb(80, 88, 102);
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+    
+    
+}
+
+.iphone{
+    background-image: url("/img/phone.png");
+    width: 448px;
+    height: 440px;
+    float: left;
+    margin-left: 70px;
+    margin-top: -36%;
+}
+
+
+
+
+ .title{
+    font-size: 50px;
+    float: right;
+    margin-top: 14%;
+    color: white;
+    width: 35%;
+    margin-right: 20%;
+}
+ .text{
+    float: right;
+    font-size: 15px;
+    margin-top: 1%;
+    color: white;
+    line-height: 1cm;
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 20%;
+}
+
+
+.link{
+    background-color: green;
+}
+.link2{
+    padding: 5px 10px;
+    text-decoration-line: underline;
+}
+
+.citate .link3{
+    padding: 20px 20px;
+    margin-top: 20%;
+    text-decoration-line: underline;
+    color: black;
+    margin-left: 50px;
+}
+/* botton */
+a.link {
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0,0,0,.5);
+    user-select: none;
+    padding: 5px 15px;
+    border: 1px solid rgb(80,32,0);
+    border-radius: 5px;
+    outline: none;
+    background: rgb(20, 167, 15) linear-gradient(rgb(20, 167, 15), rgb(51, 196, 46) 80%);
+    box-shadow:
+     0 6px rgb(25, 78, 23),
+     0 3px 15px rgba(0,0,0,.4),
+     inset 0 1px rgba(255,255,255,.3),
+     inset 0 0 3px rgba(255,255,255,.5);
+    transition: .2s;
+  } 
+  .link:hover {
+    background: rgb(20, 167, 15) linear-gradient(rgb(55, 233, 49), rgb(51, 196, 46) 80%);
+  }
+  .link:active {
+    background: rgb(20, 167, 15) linear-gradient(rgb(20, 167, 15) 20%, rgb(51, 196, 46));
+    box-shadow:
+     0 2px rgb(25, 78, 23),
+     0 1px 6px rgba(0,0,0,.4),
+     inset 0 1px rgba(255,255,255,.3),
+     inset 0 0 3px rgba(255,255,255,.5);
+    -webkit-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+  }
+
+.logowall{
+    background: rgb(80, 88, 102) ;
+    width: 100%;
+    height: 70px;
+    margin-top: 1%;
+    padding-top: 20px;
+   
+}
+.logowallimg{
+    background-image: url("/img/logowall.png");
+    width: 82%;
+    height: 48px;
+    margin-left: 10%;
+}
+
+
+.citate{
+    background-color: rgb(228, 228, 228);
+    width: 871px;
+    height: 270px;
+    margin-top: 4%;
+    margin-left: 15%;
+    font-size: 25px;
+}
+.citate2{
+   font-size: 14px;
+   text-align: right;
+   margin-top: -30%;
+   margin-right: 29.8%;
+}
+
+.list{
+    font-size: 15px;
+    padding: 7px 15px;
+    text-align: left;
+}
+
+li{
+    list-style-type: none;
+}
+
+li p{
+    width: 250px;
+    margin-left: 25px;
+    font-size: 17px;
+}
+.check{
+    background-image: url("/img/check.png") ;
+    width: 17px;
+    height: 17px;
+    margin-left: -4%;
+}
+
+.citate .vl {
+    background-image: url("/img/separate.png");
+    height: 265px;
+    margin-left: 300px;
+    margin-top: -240px;
+    width: 4px;
+}
+
+.citate2 .stand{
+    color: black;
+    font-size: 14px;
+    width: 80%;
+    text-align: center;
+    margin-left: 320px;
+}
+
+.facep{
+    background-image: url("/img/facepp.png");
+    width: 110px;
+    height: 156px;
+    float: right;
+    margin-right: -260px;
+    margin-top: -90px;
+}
+
+.name{
+    float: right;
+    padding: 10px 10px;
+    margin-top: -1%;
+    margin-right: 10%;
+}
+
+.service{
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
+}
+
+.research{
+    width: 137px;
+    height: 137px;
+    background-image: url("/img/icon3.png");
+    margin-left: 13%;
+}
+.usability{
+    width: 137px;
+    height: 137px;
+    background-image: url("/img/icon2.png");
+    margin-left: 46%;
+    margin-top: -11%;
+}
+.design{
+    width: 137px;
+    height: 137px;
+    background-image: url("/img/icon.png");
+    margin-left: 79%;
+    margin-top: -11%;
+}
+
+
+/* text */
+ .dtext1{
+    width: 30%;
+    font-size: 14px;
+    text-align: left;
+    float: left;
+ }
+.dtext2{
+    width: 30%;
+    font-size: 14px;
+    text-align: left;
+    float: left;
+}
+.dtext3{
+    width: 30%;
+    font-size: 14px;
+    float: left;
+}
+/* button for text */
+
+a.read1{
+    padding: 10px 24px;
+    color: white;
+    background-color: rgb(61, 148, 209);
+}
+a.read2{
+    padding: 10px 24px;
+    color: white;
+    background-color: rgb(61, 148, 209);
+}
+a.read3{
+    padding: 10px 24px;
+    color: white;
+    background-color: rgb(61, 148, 209);
+}
+
+/*
+a.read1, a.read2, a.read3 p{
+    margin-top: 300px;
+}*/
+
+
+.dtext1, .dtext2, .dtext3{
+    margin-left: 3%;
+}
+
+/* separate */
+
+.separate1{
+    background-image: url("/img/separate1.png");
+    width: 100%;
+    height: 4px;
+    margin-top: 5%;
+}
+.separate2{
+    background-image: url("/img/separate1.png");
+    width: 100%;
+    height: 4px;
+    margin-top: 30%;
+}
+
+/* undegroundtext */
+.atext{
+    margin-top: 3%;
+    width: 30%;
+    font-size: 14px;
+    float: left;
+}
+
+.atext1{
+    margin-top: 3%;
+    width: 30%;
+    font-size: 14px;
+    float: left;
+}
+
+.atext2{
+    margin-top: 3%;
+    width: 30%;
+    font-size: 14px;
+    float: left;
+}
+
+.atext, .atext1, .atext2{
+    margin-left: 3%;
+}
+
+/* project images */
+
+.pr{
+    height: 300px;
+    width: 100%;
+}
+
+.pimg1{
+    background-image: url("/img/pimg1.png");
+    float: left;
+    width: 228px;
+    height: 171px;
+}
+
+.pimg2{
+    background-image: url("/img/pimg2.png");
+    width: 241px;
+    height: 180px;
+    float: left;
+}
+
+.pimg3{
+    background-image: url("/img/pimg3.png");
+    width: 266px;
+    height: 199px;
+    float: left;
+}
+
+.pimg4{
+    background-image: url("/img/pimg4.png");
+    width: 250px;
+    height: 188px;
+    float: left;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+    margin-left: 3%;
+}
+
+/* podval */
+.ungr{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(80, 88, 102);
+}
+
+/* links 2 */
+
+.sp{
+    font-size: 18px;
+    color: rgb(112, 122, 130);
+    text-decoration-style: none;
+    width: 90%;
+    display: inline-block;
+}
+
+.sp1{
+    width: 12%;
+    float: left;
+    font-size: 14px;
+}
+
+.sp1 li{
+    font-size: 12px;
+}
+
+.sp2{
+    width: 12%;
+    float: left;
+   
+    font-size: 14px;
+}
+
+.sp2 li{
+    font-size: 12px;
+}
+
+.sp3 {
+    width: 12%;
+    float: left;
+  
+    font-size: 14px;
+}
+
+.sp3 li{
+    font-size: 12px;
+}
+
+.sp4{
+    width: 12%;
+    float: left;
+    
+    font-size: 14px;
+}
+
+.sp4 li{
+    font-size: 12px;
+}
+
+.sp5{
+    width: 12%;
+    float: left;
+    font-size: 14px;
+}
+
+.sp5 li{
+    font-size: 12px;
+}
+
+/* social media icons */
+
+.socialicons{
+    float: right;
+    width: 30%;
+    margin-top: -8%;
+    margin-right: 5%;
+}
+
+/* icons */
+.iface{
+    background-image: url("/img/iface.png");
+    width: 34px;
+    height: 34px;
+    float: left;
+}
+
+.itwet{
+    background-image: url("/img/itwitter.png");
+    width: 34px;
+    height: 34px;
+    float: left;
+}
+
+.ilink{
+    background-image: url("/img/ilink.png");
+    width: 34px;
+    height: 34px;
+    float: left;
+}
+
+.ibeh{
+    background-image: url("/img/ibeh.png");
+    width: 34px;
+    height: 34px;
+    float: left;
+}
+
+.idribb{
+    background-image: url("/img/idribble.png");
+    width: 34px;
+    height: 34px;
+    float: left;
+}
+
+/* footer */
+
+.footerd{
+    background-image: url("/img/footdisclaimer.png");
+    float: left;
+    width: 866px;
+    height: 60px;
+    margin-top: 15%;
+    margin-left: 4%;
+}
